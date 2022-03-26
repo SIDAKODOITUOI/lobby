@@ -1,0 +1,56 @@
+# 
+#  _____     _____         ___        ___    #
+# ||   \\   ||    \\     //  \\\    //   \\  #
+# ||    ||  ||     ||   ||   |||   ||        #
+# ||===//   ||====//         ///   ||        #
+# ||   \\   ||              ///    ||        #
+# ||    ||  ||            ///      ||        #
+# ||____//  ||           ///____    \\____// #
+#                                            #
+Active:
+  Chat: true
+  Cmds: true
+  Domains: true
+Prefix: '&a[=-=&cBP2C&a=-=]'
+Block:
+  Chat:
+  - idiot
+  - fuck
+  - bitch
+  Cmds:
+  - /pl
+  - /plugins
+  - /?
+  - /help
+  - /op
+  - /deop
+  - /reload
+  - /restart
+  - /stop
+  - /ban
+  - /unban
+  - /banip
+  - /unbanip
+  - /temban
+  - /untemban
+  Domains:
+  - .
+  - hopto
+  - org
+  - net
+  - com
+  - vn
+Message:
+  Chat: '&cYou cannot use this word'
+  Cmds: '&cOnly console can use this command'
+  Domains: '&cDo not use domains in chat'
+Kick:
+  Domains:
+    Enabled: false
+    Message: '&cDo not use domains in chat'
+  Chat:
+    Enabled: false
+    Message: '&cYou cannot use this word'
+  Cmds:
+    Enabled: false
+    Message: '&cOnly console can use this command'
